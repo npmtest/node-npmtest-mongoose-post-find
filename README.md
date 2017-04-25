@@ -1,6 +1,6 @@
 # npmtest-mongoose-post-find
 
-#### test coverage for  [mongoose-post-find (v0.0.2)](https://github.com/idottv/mongoose-post-find)  [![npm package](https://img.shields.io/npm/v/npmtest-mongoose-post-find.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mongoose-post-find) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mongoose-post-find.svg)](https://travis-ci.org/npmtest/node-npmtest-mongoose-post-find)
+#### basic test coverage for  [mongoose-post-find (v0.0.2)](https://github.com/idottv/mongoose-post-find)  [![npm package](https://img.shields.io/npm/v/npmtest-mongoose-post-find.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mongoose-post-find) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mongoose-post-find.svg)](https://travis-ci.org/npmtest/node-npmtest-mongoose-post-find)
 
 #### Post find and findOne hooks for mongoose
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-mongoose-post-find/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-mongoose-post-find/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mongoose-post-find/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mongoose-post-find/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mongoose-post-find/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mongoose-post-find/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-mongoose-post-find/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-mongoose-post-find/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mongoose-post-find/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mongoose-post-find/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-mongoose-post-find/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mongoose-post-find/build/coverage.html/index.html)
 
@@ -88,7 +88,8 @@
         "prepublish": "coffee -c index.coffee",
         "test": "mocha test"
     },
-    "version": "0.0.2"
+    "version": "0.0.2",
+    "bin": {}
 }
 ```
 
